@@ -1,0 +1,475 @@
+Rank,Make_Model,Model_Year,Thefts,State,Country_of_Origin
+10,Dodge Pickup (Full Size),2005,297,Ohio,America
+8,Subaru Impreza,1999,171,Oregon,Japan
+2,Chevrolet Pickup (Full Size),2000,783,Missouri,America
+3,Dodge Pickup (Full Size),2004,2898,Texas,America
+9,Honda CR-V,1999,107,Massachusetts,Japan
+10,Chevrolet Tahoe,2003,68,Arkansas,America
+1,Dodge Caravan,2003,679,Ohio,America
+8,Nissan Sentra,1997,2555,California,Japan
+6,Toyota Corolla,2014,914,Florida,Japan
+10,Chevrolet Malibu,2009,119,Oklahoma,America
+1,Honda Accord,1997,534,Connecticut,Japan
+2,Honda Civic,1998,1276,Oregon,Japan
+10,Chevrolet Impala,2005,90,New Mexico,America
+9,Ford Explorer,2002,119,Alabama,America
+3,Toyota Camry,2014,260,Massachusetts,Japan
+1,Chevrolet Pickup (Full Size),2007,32,Wyoming,America
+5,Dodge Charger,2015,477,Michigan,America
+4,Honda Accord,1997,1626,Texas,Japan
+5,Chevrolet Malibu,2011,442,Illinois,America
+4,Dodge Pickup (Full Size),2001,23,South Dakota,America
+3,Ford Pickup (Full Size),2004,745,Washington,America
+2,Honda Civic,1998,532,Connecticut,Japan
+6,Nissan Altima,2015,3000,Arkansas,Japan
+10,Dodge Pickup (Full Size),2001,37,Hawaii,America
+3,Ford Pickup (Full Size),2006,154,Hawaii,America
+4,Toyota Camry,1991,5345,California,Japan
+6,Nissan Altima,2014,215,Louisiana,Japan
+10,Chevrolet Tahoe,2007,114,Louisiana,America
+2,Ford Pickup (Full Size),2001,198,Iowa,America
+10,Ford Pickup (Small Size),2000,22,Montana,America
+4,Honda Accord,1996,157,Nebraska,Japan
+2,Honda Accord,1996,458,South Carolina,Japan
+2,Honda Accord,1997,402,Massachusetts,Japan
+7,Ford Pickup (Full Size),2003,36,Rhode Island,America
+1,Honda Accord,2002,266,Virginia,Japan
+2,Honda Civic,1998,707,New York,Japan
+5,Dodge Caravan,2005,188,Massachusetts,America
+1,Ford Pickup (Full Size),2006,586,South Carolina,America
+4,Toyota Corolla,2010,203,Massachusetts,Japan
+7,Chevrolet Impala,2000,8,Maine,America
+8,Chevrolet Pickup (Full Size),1999,41,District Of Columbia,America
+5,Dodge Pickup (Full Size),2001,102,Nebraska,America
+8,Ford Taurus,2002,94,Kentucky,America
+2,Honda Civic,1998,1016,Arizona,Japan
+1,Honda Civic,2000,426,Massachusetts,Japan
+8,Nissan Sentra,2014,200,Nevada,Japan
+2,Ford Pickup (Full Size),1995,145,Montana,America
+8,Jeep Cherokee/Grand Cherokee,1997,19,Idaho,America
+10,Nissan Maxima,2014,479,Florida,Japan
+5,Toyota Camry,2015,254,Nevada,Japan
+10,Chevrolet Impala,2007,898,Texas,America
+8,Chevrolet Impala,2015,542,Florida,America
+5,Dodge Pickup (Full Size),2003,222,Louisiana,America
+2,Ford Pickup (Full Size),2008,252,Arkansas,America
+6,Honda Accord,1996,269,Oklahoma,Japan
+6,Honda CR-V,1999,190,Minnesota,Japan
+8,Nissan Frontier,2004,44,Hawaii,Japan
+6,Chevrolet Pickup (Full Size),1999,418,Illinois,America
+2,Honda Civic,1998,1011,Nevada,Japan
+9,Jeep Cherokee/Grand Cherokee,1996,102,Utah,America
+4,Toyota Camry,2014,1089,Florida,Japan
+9,Toyota Camry,2015,23,Montana,Japan
+3,Chevrolet Pickup (Full Size),2002,19,New Hampshire,America
+7,Honda Accord,2008,209,Louisiana,Japan
+7,Dodge Pickup (Full Size),2001,172,South Carolina,America
+4,Ford Pickup (Full Size),2004,15,Maine,America
+1,Honda Accord,1996,28345,California,Japan
+2,Honda Civic,1998,539,Pennsylvania,Japan
+4,Chevrolet Pickup (Full Size),2006,483,New Mexico,America
+2,Honda Civic,1998,95,Rhode Island,Japan
+5,Chevrolet Impala,2015,27,North Dakota,America
+3,Chevrolet Pickup (Full Size),2006,377,Nevada,America
+1,Dodge Caravan,2003,727,Maryland,America
+8,Dodge Intrepid,2002,179,Wisconsin,America
+8,Ford Mustang,2002,122,Alabama,America
+6,Chevrolet Pickup (Full Size),1999,217,Oregon,America
+3,Chevrolet Pickup (Full Size),1999,329,Minnesota,America
+4,Ford Crown Victoria,2003,210,South Carolina,America
+6,Nissan Altima,2015,249,North Carolina,Japan
+3,Ford Pickup (Full Size),2006,303,Pennsylvania,America
+8,Toyota Camry,2014,1030,Texas,Japan
+9,Dodge Pickup (Full Size),2001,93,Kentucky,America
+5,Ford Pickup (Full Size),2004,287,Maryland,America
+5,Honda Accord,1993,46,Alaska,Japan
+7,Nissan Altima,1997,207,Nevada,Japan
+4,Subaru Legacy,1999,6,Vermont,Japan
+10,Chevrolet Impala,2006,105,Virginia,America
+4,Ford Pickup (Full Size),2005,246,Minnesota,America
+1,Chevrolet Pickup (Full Size),2002,127,North Dakota,America
+3,Subaru Legacy,1996,262,Utah,Japan
+9,Toyota Corolla,2010,280,New York,Japan
+10,Dodge Pickup (Full Size),2005,148,Nevada,America
+3,Dodge Pickup (Full Size),2006,78,Montana,America
+7,Ford Focus,2001,8,Maine,America
+4,Jeep Cherokee/Grand Cherokee,2000,10,Wyoming,America
+3,Dodge Pickup (Full Size),2004,13,Wyoming,America
+5,Honda Accord,1997,1025,Florida,Japan
+5,Subaru Impreza,2002,5,Vermont,Japan
+4,Toyota Camry,2014,181,Virginia,Japan
+3,Chevrolet Pickup (Full Size),2004,455,South Carolina,America
+4,Toyota Camry,2014,269,Pennsylvania,Japan
+8,Chevrolet Impala,2008,177,Louisiana,America
+5,Chevrolet Impala,2008,369,Missouri,America
+1,Honda Accord,1997,1072,Arizona,Japan
+4,Honda Civic,2000,653,Georgia,Japan
+8,Dodge Caravan,2002,89,Kansas,America
+9,Chevrolet Pickup (Small Size),1998,101,New Mexico,America
+5,Toyota Camry,2014,568,Georgia,Japan
+7,Chevrolet Impala,2004,171,Minnesota,America
+7,Chevrolet Pickup (Small Size),1997,17,South Dakota,America
+1,Ford Pickup (Full Size),2006,7897,Texas,America
+5,Honda Accord,1994,52,Montana,Japan
+1,Honda Accord,1997,1052,Georgia,Japan
+10,Nissan Altima,1997,97,Utah,Japan
+7,Chevrolet Malibu,2013,451,Michigan,America
+5,Chevrolet Impala,2006,24,West Virginia,America
+1,Chevrolet Pickup (Full Size),1999,165,Montana,America
+7,Honda Civic,2000,198,Tennessee,Japan
+7,Toyota Corolla,1999,99,Connecticut,Japan
+2,Chevrolet Pickup (Full Size),2004,6158,Texas,America
+7,Ford Taurus,1995,19,West Virginia,America
+6,Nissan Altima,2015,269,Arizona,Japan
+4,Nissan Sentra,1998,340,New Jersey,Japan
+3,Chevrolet Pickup (Full Size),2005,36,Delaware,America
+7,Jeep Cherokee/Grand Cherokee,1994,149,New Mexico,America
+8,Toyota Camry,1997,59,Iowa,Japan
+9,Toyota Corolla,2014,190,North Carolina,Japan
+1,Dodge Caravan,2002,167,District Of Columbia,America
+5,Dodge Pickup (Full Size),2001,428,Arizona,America
+4,Jeep Cherokee/Grand Cherokee,2000,467,Ohio,America
+6,Honda Accord,1997,8,Wyoming,Japan
+1,Honda Civic,1998,50,Minnesota,Japan
+8,Jeep Cherokee/Grand Cherokee,2000,11,New Hampshire,America
+4,Nissan Altima,2014,191,Alabama,Japan
+3,Toyota Camry,2014,347,Maryland,Japan
+1,Ford Pickup (Full Size),2006,2070,Florida,America
+5,Toyota Camry,1999,214,Minnesota,Japan
+5,Toyota Corolla,2009,13,Maine,Japan
+1,Chevrolet Pickup (Full Size),1999,439,Kansas,America
+3,Honda Accord,1996,319,Kansas,Japan
+3,Honda Civic,2013,200,Virginia,Japan
+7,Toyota Corolla,2014,3339,California,Japan
+10,Chevrolet Pickup (Small Size),1998,43,Nebraska,America
+5,Dodge Durango,2002,9,Wyoming,America
+9,Chrysler 300/300M,2005,40,District Of Columbia,America
+1,Ford Pickup (Full Size),2005,659,Indiana,America
+1,Honda Accord,1994,1491,Oregon,Japan
+6,Honda CR-V,2001,23,Delaware,Japan
+6,Toyota Camry,2014,20,West Virginia,Japan
+4,Toyota Tacoma,2003,86,Hawaii,Japan
+6,Nissan Altima,2013,38,Rhode Island,Japan
+1,Chevrolet Pickup (Full Size),1994,286,Mississippi,America
+1,Chevrolet Pickup (Full Size),1998,250,Kentucky,America
+3,Honda Accord,1996,66,Idaho,Japan
+5,Toyota Camry,1996,13,Maine,Japan
+7,Chevrolet Impala,2004,98,Kansas,America
+1,Dodge Caravan,2002,1035,Wisconsin,America
+4,Chrysler Town & Country,2002,313,Wisconsin,America
+8,Chevrolet Impala,2012,76,Arkansas,America
+7,Ford Explorer,2000,99,Kentucky,America
+2,Ford Pickup (Full Size),1999,168,Nebraska,America
+6,Honda Accord,1990,23,North Dakota,Japan
+10,Ford Explorer,2002,146,South Carolina,America
+9,Jeep Cherokee/Grand Cherokee,2001,107,Virginia,America
+4,Dodge Caravan,2003,528,Michigan,America
+9,Nissan Maxima,1998,195,New Jersey,Japan
+10,Toyota Camry,2014,236,Missouri,Japan
+8,Chevrolet Impala,2006,194,North Carolina,America
+6,Chevrolet Impala,2001,31,Montana,America
+7,Ford Explorer,2002,22,Idaho,America
+8,Jeep Cherokee/Grand Cherokee,1994,362,Washington,America
+7,Jeep Cherokee/Grand Cherokee,1999,21,North Dakota,America
+10,Nissan Sentra,1997,296,Washington,Japan
+2,Ford Pickup (Full Size),2001,241,Kentucky,America
+2,Honda Accord,1994,180,Hawaii,Japan
+5,Honda Accord,1998,180,Alabama,Japan
+6,Dodge Pickup (Full Size),2012,117,Utah,America
+3,Ford Pickup (Full Size),2005,595,Colorado,America
+10,Nissan Altima,2014,326,Illinois,Japan
+4,Toyota Camry,2014,95,District Of Columbia,Japan
+1,Chevrolet Pickup (Full Size),2003,147,Alaska,America
+3,Chevrolet Pickup (Full Size),2004,850,Arizona,America
+10,Ford Fusion,2014,355,Michigan,America
+2,Ford Pickup (Full Size),2006,954,Georgia,America
+2,Honda Civic,2000,1127,Florida,Japan
+6,Toyota Camry,2014,94,Mississippi,Japan
+2,Ford Pickup (Full Size),2006,557,New Mexico,America
+4,Chevrolet Impala,2005,118,Kentucky,America
+8,Chevrolet Impala,2008,166,South Carolina,America
+7,Nissan Altima,2014,484,Georgia,Japan
+7,Toyota Corolla,2014,210,Pennsylvania,Japan
+6,Chevrolet Pickup (Full Size),2003,144,Virginia,America
+2,Honda Accord,1997,132,District Of Columbia,Japan
+3,Honda Accord,1997,450,Wisconsin,Japan
+1,Chevrolet Pickup (Full Size),2006,671,Louisiana,America
+9,Ford Pickup (Small Size),2000,22,Alaska,America
+7,Jeep Cherokee/Grand Cherokee,2000,286,New Jersey,America
+5,Toyota Camry,1997,9,Wyoming,Japan
+7,Toyota Camry,2013,82,Arkansas,Japan
+5,Toyota Camry,1990,221,Oregon,Japan
+8,Chevrolet Cobalt,2005,7,Maine,America
+6,Nissan Altima,2006,23,Delaware,Japan
+8,Toyota Camry,2014,232,New Jersey,Japan
+8,Ford Taurus,2002,250,Missouri,America
+1,Honda Civic,1998,572,New Mexico,Japan
+5,Ford Taurus,2003,77,Iowa,America
+2,Honda Accord,1997,20,Minnesota,Japan
+5,Toyota Camry,2014,131,Connecticut,Japan
+2,Ford Pickup (Full Size),2004,424,North Carolina,America
+5,Nissan Altima,2015,261,Pennsylvania,Japan
+5,Toyota Corolla,2014,110,Kentucky,Japan
+7,Chevrolet Malibu,2015,343,Ohio,America
+2,Chevrolet Pickup (Full Size),1999,76,Idaho,America
+3,Chevrolet Pickup (Full Size),2006,6048,California,America
+3,Dodge Pickup (Full Size),1998,49,North Dakota,America
+3,Dodge Pickup (Full Size),2001,419,Oklahoma,America
+3,Toyota Camry,2014,500,New York,Japan
+5,Toyota Corolla,2014,40,Rhode Island,Japan
+2,Chevrolet Pickup (Full Size),1999,585,Michigan,America
+7,Chevrolet Impala,2005,181,Oklahoma,America
+4,Ford Pickup (Full Size),1999,31,Delaware,America
+2,Ford Pickup (Full Size),2004,780,Oklahoma,America
+3,Jeep Cherokee/Grand Cherokee,1996,36,West Virginia,America
+4,Dodge Pickup (Full Size),2003,29,West Virginia,America
+2,Honda Civic,1998,3113,Washington,Japan
+7,Chevrolet Cavalier,2003,6,Wyoming,America
+1,Chevrolet Pickup (Full Size),1997,693,Tennessee,America
+10,Toyota Corolla,2014,170,Colorado,Japan
+3,Chevrolet Impala,2005,101,Iowa,America
+7,Dodge Pickup (Full Size),1998,138,Alabama,America
+2,Honda Accord,1997,1167,Colorado,Japan
+8,Toyota Corolla,2010,21,Delaware,Japan
+10,Chevrolet Pickup (Small Size),1998,20,Alaska,America
+3,Honda Civic,1997,165,Nebraska,Japan
+5,Toyota Camry,2014,291,North Carolina,Japan
+2,Chevrolet Impala,2008,579,Illinois,America
+2,Chevrolet Pickup (Full Size),2000,76,West Virginia,America
+4,Ford Pickup (Full Size),2004,295,Oregon,America
+9,Toyota Camry,2012,20,Delaware,Japan
+5,Chevrolet Impala,2007,28,Delaware,America
+2,Ford Pickup (Full Size),2001,47,South Dakota,America
+4,Nissan Altima,1997,143,Connecticut,Japan
+8,Ford Explorer,2002,543,Virginia,America
+3,Ford Pickup (Full Size),2006,530,Michigan,America
+7,Ford Taurus,2002,22,Delaware,America
+2,Chevrolet Pickup (Full Size),1994,619,Indiana,America
+8,Chevrolet Pickup (Full Size),2003,203,Pennsylvania,America
+2,Honda Accord,2004,43,Delaware,Japan
+4,Nissan Altima,2015,374,New York,Japan
+4,Dodge Pickup (Full Size),1999,127,Arkansas,America
+8,Dodge Pickup (Full Size),2003,452,Georgia,America
+5,Chevrolet Pickup (Full Size),2000,450,Colorado,America
+7,Subaru Impreza,1997,106,Utah,Japan
+8,Chevrolet Pickup (Small Size),1995,24,Montana,America
+7,Honda Accord,2007,91,Mississippi,Japan
+6,Nissan Altima,2013,230,Maryland,Japan
+1,Honda Accord,1997,544,Pennsylvania,Japan
+5,Ford Pickup (Full Size),2006,4504,California,America
+7,Ford Pickup (Full Size),2006,392,Illinois,America
+6,Dodge Stratus,2002,209,Wisconsin,America
+10,Ford Econoline E350,2003,184,New Jersey,America
+9,Ford Explorer,2002,123,Oklahoma,America
+2,Ford Pickup (Full Size),2000,29,Wyoming,America
+1,Chevrolet Pickup (Full Size),2004,402,Arkansas,America
+8,Honda CR-V,1997,283,New York,Japan
+9,Jeep Cherokee/Grand Cherokee,1994,207,Arizona,America
+9,Jeep Cherokee/Grand Cherokee,2001,449,Georgia,America
+6,Nissan Altima,2014,291,New Jersey,Japan
+1,Chevrolet Pickup (Full Size),2005,499,Alabama,America
+1,Dodge Caravan,2000,1054,Illinois,America
+9,Dodge Caravan,2000,79,Connecticut,America
+5,Dodge Pickup (Full Size),2001,45,Idaho,America
+9,Honda CR-V,1999,27,Rhode Island,Japan
+10,Chevrolet Pickup (Full Size),2015,95,Massachusetts,America
+4,Ford Pickup (Full Size),2006,279,Nevada,America
+7,Toyota Camry,2007,191,Wisconsin,Japan
+8,Chevrolet Malibu,2015,179,Wisconsin,America
+1,Chevrolet Pickup (Full Size),2002,258,Iowa,America
+3,Honda Accord,1994,545,New Mexico,Japan
+3,Honda Accord,1996,267,Tennessee,Japan
+1,Honda Accord,1997,844,New Jersey,Japan
+10,Jeep Cherokee/Grand Cherokee,2015,263,New York,America
+6,Nissan Maxima,1997,208,Nevada,Japan
+3,Toyota Camry,2014,69,Rhode Island,Japan
+5,Chevrolet Impala,2007,441,Ohio,America
+5,Dodge Pickup (Full Size),2003,269,New Mexico,America
+6,Dodge Pickup (Full Size),2001,308,Colorado,America
+5,Toyota Corolla,2004,64,Hawaii,Japan
+7,Ford Explorer,1994,31,Alaska,America
+10,Ford Explorer,2003,185,North Carolina,America
+3,Nissan Altima,2015,1098,Florida,Japan
+1,Chevrolet Impala,2008,733,Michigan,America
+9,Toyota Corolla,1999,9,New Hampshire,Japan
+1,Chevrolet Pickup (Full Size),1994,52,South Dakota,America
+6,Dodge Pickup (Full Size),1998,44,Alaska,America
+2,Honda Civic,1998,28045,California,Japan
+8,Dodge Caravan,2003,143,Minnesota,America
+1,Chevrolet Pickup (Full Size),2001,29,Maine,America
+1,Ford Pickup (Full Size),2003,87,West Virginia,America
+8,Toyota Camry,1999,210,Arizona,Japan
+3,Chevrolet Pickup (Full Size),2003,370,North Carolina,America
+9,Jeep Cherokee/Grand Cherokee,2000,178,Tennessee,America
+8,Toyota Camry,1997,19,Idaho,Japan
+10,Toyota Avalon,2000,18,Rhode Island,Japan
+7,Toyota Corolla,2013,900,Virginia,Japan
+4,Chevrolet Pickup (Small Size),1999,29,West Virginia,America
+6,Ford Econoline E350,2011,339,New York,America
+1,Honda Civic,2000,53,Delaware,Japan
+2,Honda Civic,1998,470,Wisconsin,Japan
+7,Nissan Maxima,1998,328,New York,Japan
+4,Dodge Pickup (Full Size),2004,93,Iowa,America
+8,Honda CR-V,1998,92,Connecticut,Japan
+9,Nissan Altima,2015,155,South Carolina,Japan
+4,Chevrolet Impala,2004,191,Alabama,America
+3,Chevrolet Pickup (Full Size),1999,948,Georgia,America
+7,Jeep Cherokee/Grand Cherokee,1999,17,South Dakota,America
+9,Chevrolet Pickup (Small Size),1998,88,Kansas,America
+5,Honda Civic,1998,292,Oklahoma,Japan
+7,Nissan Altima,2005,156,Massachusetts,Japan
+7,Subaru Legacy,1996,215,Colorado,Japan
+1,Chevrolet Pickup (Full Size),1996,196,Nebraska,America
+10,Jeep Cherokee/Grand Cherokee,1994,141,Oregon,America
+8,Jeep Cherokee/Grand Cherokee,1999,143,Massachusetts,America
+6,Jeep Cherokee/Grand Cherokee,1999,70,Nebraska,America
+7,Toyota 4Runner,1997,45,Hawaii,Japan
+6,Honda Accord,1997,108,Kentucky,Japan
+7,Honda Accord,1997,274,Missouri,Japan
+1,Honda Accord,1997,724,New York,Japan
+8,Jeep Cherokee/Grand Cherokee,2000,89,Kansas,America
+9,Toyota Corolla,2014,151,Nevada,Japan
+9,Toyota Corolla,2010,332,Washington,Japan
+5,Dodge Caravan,2000,368,New York,America
+7,Ford Explorer,1996,27,Montana,America
+4,Honda Civic,1996,52,Idaho,Japan
+9,Nissan Altima,2004,42,Hawaii,Japan
+3,Toyota Camry,1999,178,Kentucky,Japan
+1,Chevrolet Pickup (Full Size),1994,1143,Oklahoma,America
+9,Jeep Cherokee/Grand Cherokee,2000,374,Illinois,America
+7,Toyota Camry,1999,13,New Hampshire,Japan
+8,Dodge Pickup (Full Size),2005,85,Mississippi,America
+2,Honda Accord,2002,8,Vermont,Japan
+9,Chevrolet Malibu,2006,72,Arkansas,America
+1,Ford Pickup (Full Size),2004,880,Missouri,America
+8,Jeep Cherokee/Grand Cherokee,2015,194,Maryland,America
+7,Chevrolet Pickup (Full Size),1999,562,Washington,America
+1,Honda Accord,1997,101,Rhode Island,Japan
+6,Jeep Cherokee/Grand Cherokee,1998,289,Missouri,America
+5,Nissan Sentra,2012,5,Vermont,Japan
+4,Toyota Camry,2007,224,Louisiana,Japan
+2,Ford Pickup (Full Size),2004,95,Alaska,America
+9,Ford Taurus,2003,182,Indiana,America
+6,Honda Accord,1997,437,Ohio,Japan
+5,Dodge Pickup (Full Size),2001,160,Kansas,America
+9,Chevrolet Malibu,2015,73,Mississippi,America
+9,Chevrolet Pickup (Full Size),1999,192,Maryland,America
+4,Dodge Pickup (Full Size),2001,263,Indiana,America
+4,Honda Accord,1997,481,Illinois,Japan
+10,Dodge Caravan,2002,425,Georgia,America
+4,Honda Civic,2000,220,Kansas,Japan
+2,Ford Pickup (Full Size),2004,205,Virginia,America
+4,Ford Pickup (Full Size),2006,772,Arizona,America
+10,Ford Taurus,1998,16,North Dakota,America
+4,Honda Civic,2012,313,Maryland,Japan
+5,Toyota Corolla,2010,70,District Of Columbia,Japan
+3,Chevrolet Impala,2004,24,South Dakota,America
+6,Honda Civic,2000,176,South Carolina,Japan
+5,Nissan Altima,2015,162,Virginia,Japan
+10,Nissan Sentra,2014,200,Arizona,Japan
+7,Chevrolet Pickup (Small Size),1998,186,Indiana,America
+5,Honda Accord,1997,122,Arkansas,Japan
+7,Jeep Cherokee/Grand Cherokee,1999,203,North Carolina,America
+4,Chevrolet Impala,2006,114,Mississippi,America
+9,Nissan Altima,1997,2281,California,Japan
+7,Chevrolet Tahoe,2004,1148,Texas,America
+9,Chevrolet Malibu,2015,243,Missouri,America
+5,Ford Pickup (Small Size),2002,5,Vermont,America
+3,Honda Civic,2000,566,Illinois,Japan
+4,Nissan Altima,2005,215,Tennessee,Japan
+9,Toyota Camry,2000,49,Nebraska,Japan
+5,Dodge Caravan,2003,16,New Hampshire,America
+9,Honda CR-V,2000,172,Wisconsin,Japan
+8,Jeep Cherokee/Grand Cherokee,1999,28,Alaska,America
+2,Honda Accord,1996,20,New Hampshire,Japan
+8,Chevrolet Pickup (Small Size),1999,18,North Dakota,America
+9,Honda CR-V,1999,158,Oregon,Japan
+3,Toyota Camry,2014,205,Alabama,Japan
+6,Chevrolet Trailblazer,2007,462,Michigan,America
+7,Honda Accord,1994,186,Indiana,Japan
+8,Honda Civic,2000,325,Ohio,Japan
+6,Honda Civic,2000,1371,Texas,Japan
+6,Jeep Cherokee/Grand Cherokee,2000,110,Connecticut,America
+2,Chevrolet Pickup (Full Size),1999,579,Ohio,America
+2,Ford Pickup (Full Size),2003,415,Kansas,America
+3,Ford Pickup (Full Size),2004,540,Ohio,America
+8,Toyota Camry,2007,188,Tennessee,Japan
+4,Ford Pickup (Full Size),2006,238,Utah,America
+4,Honda Civic,1996,23,South Dakota,Japan
+9,Toyota Camry,1989,203,Colorado,Japan
+6,Chevrolet Impala,2006,224,Pennsylvania,America
+5,Chevrolet Malibu,2005,238,Indiana,America
+9,Jeep Cherokee/Grand Cherokee,1999,188,Pennsylvania,America
+6,Subaru Legacy,1996,599,Washington,Japan
+6,Toyota Camry,2000,55,Hawaii,Japan
+1,Honda Accord,1996,3757,Washington,Japan
+4,Honda Civic,2005,6,Vermont,Japan
+9,Nissan Altima,2012,957,Texas,Japan
+4,Honda Civic,2000,56,Alaska,Japan
+8,Jeep Cherokee/Grand Cherokee,1999,32,Rhode Island,America
+3,Dodge Caravan,2003,465,Missouri,America
+1,Honda Civic,1997,1380,Colorado,Japan
+4,Honda Civic,2000,350,North Carolina,Japan
+9,Toyota Corolla,2010,109,Minnesota,Japan
+10,Chevrolet Malibu,2015,159,Pennsylvania,America
+10,Chevrolet Tahoe,2005,68,Mississippi,America
+10,Honda CR-V,1999,2033,California,Japan
+1,Honda Civic,1997,34,New Hampshire,Japan
+3,Subaru Legacy,1998,377,Oregon,Japan
+5,Chevrolet Pickup (Full Size),2004,225,Utah,America
+9,Dodge Pickup (Full Size),2005,534,Florida,America
+6,Honda Civic,2009,11,Maine,Japan
+8,Chevrolet Pickup (Small Size),1998,127,Oklahoma,America
+6,Ford Focus,2007,14,New Hampshire,America
+8,Toyota Camry,1999,128,New Mexico,Japan
+2,Honda Civic,1998,915,Utah,Japan
+3,Nissan Altima,2015,128,Mississippi,Japan
+8,Nissan Maxima,1997,188,Tennessee,Japan
+6,Jeep Cherokee/Grand Cherokee,2005,65,Iowa,America
+3,Hyundai Elantra,2015,7,Vermont,South Korea
+7,Toyota Corolla,2014,204,Maryland,Japan
+1,Honda Accord,1997,938,Utah,Japan
+5,Toyota Camry,1989,602,Washington,Japan
+7,Chevrolet Impala,2006,68,Nebraska,America
+3,Dodge Caravan,2002,427,New Jersey,America
+1,Ford Pickup (Full Size),2004,108,Idaho,America
+2,Honda Civic,1998,753,New Jersey,Japan
+1,Chevrolet Pickup (Full Size),2001,15,Vermont,America
+7,Chevrolet Pickup (Full Size),2015,786,Florida,America
+10,Chevrolet Pickup (Small Size),2000,79,Kentucky,America
+2,Ford Pickup (Full Size),2004,468,Tennessee,America
+2,Ford Pickup (Full Size),2006,357,Alabama,America
+8,Ford Pickup (Small Size),1991,19,Idaho,America
+6,Nissan Altima,2015,62,District Of Columbia,Japan
+9,Toyota Camry,2014,308,Ohio,Japan
+5,Chevrolet Impala,2007,213,Tennessee,America
+5,Ford Pickup (Full Size),2006,295,New Jersey,America
+1,Honda Accord,1997,609,North Carolina,Japan
+4,Dodge Pickup (Full Size),2001,410,Missouri,America
+4,Ford Pickup (Full Size),2002,17,New Hampshire,America
+6,Ford Pickup (Full Size),2004,178,Massachusetts,America
+3,Chevrolet Impala,2004,423,Indiana,America
+2,Ford Pickup (Full Size),2006,584,Louisiana,America
+1,Honda Civic,2000,250,Hawaii,Japan
+9,Jeep Cherokee/Grand Cherokee,2000,407,Michigan,America
+3,Jeep Cherokee/Grand Cherokee,2004,18,Maine,America
+1,Honda Accord,1996,1048,Nevada,Japan
+2,Honda Accord,2008,675,Maryland,Japan
+10,Hyundai Sonata,2013,169,Maryland,South Korea
+5,Toyota Camry,2014,183,South Carolina,Japan
+7,Ford Taurus,2006,17,South Dakota,America
+9,Dodge Caravan,2005,56,Iowa,America
+4,Jeep Cherokee/Grand Cherokee,1999,594,Colorado,America
+9,Chevrolet Cavalier,2002,17,West Virginia,America
+6,Chevrolet Malibu,2003,20,South Dakota,America
+5,Chevrolet Impala,2007,232,Wisconsin,America
+6,Chevrolet Impala,2008,512,Georgia,America
+7,Ford Pickup (Full Size),1997,49,District Of Columbia,America
+2,Ford Pickup (Full Size),2010,8,Vermont,America
+3,Nissan Maxima,1998,184,Connecticut,Japan
+9,Chevrolet Impala,2013,40,District Of Columbia,America
+2,Ford Pickup (Full Size),2006,278,Mississippi,America
+3,Jeep Cherokee/Grand Cherokee,2001,109,District Of Columbia,America
+2,Ford Pickup (Full Size),1997,101,North Dakota,America
+4,Nissan Maxima,2000,45,Rhode Island,Japan
+8,Toyota Camry,2014,383,Illinois,Japan
