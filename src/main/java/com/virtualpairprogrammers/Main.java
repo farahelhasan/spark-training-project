@@ -81,14 +81,23 @@ public class Main {
         // cache the car table because i will use it in join 
         carsDf.cache(); 
         // join 
-        Dataset<Row> allJoinData = theftDf.join(carsDf, theftDf.col("Make_Model").contains(carsDf.col("Car_Brand")), "inner")
+        Dataset<Row> allJoinData = theftDf.join(carsDf, theftDf.col("Make_Model").contains(carsDf.col("Car_Brand")), "inner") 
                 .select(theftDf.col("*"), carsDf.col("Country_of_Origin"));
 
         // take special columns 
         Dataset<Row> extractedDf = allJoinData
                 .select(theftDf.col("Make_Model"), carsDf.col("Country_of_Origin"));
-
+        extractedDf = extractedDf.dropDuplicates();
         
+        
+        
+        // Clean the Thefts column in-place
+        allJoinData = allJoinData.withColumn("Thefts",
+                functions.when(allJoinData.col("Thefts").isNotNull(),
+                    functions.trim(functions.regexp_replace(allJoinData.col("Thefts"), ",", ""))
+                ).otherwise(null)
+        );
+
         // save all join data in hive 
         allJoinData.write()
                 .mode(SaveMode.Overwrite)
@@ -96,10 +105,12 @@ public class Main {
     
 
         // save as CSV file (Make/Model & Country_of_Origin)
-        extractedDf.write()
+        extractedDf.repartition(1).write()
         .option("header", "true")
         .mode(SaveMode.Overwrite)
         .csv("output/extracted_car_model_and_origin");
+        
+      
     }
     
     // Step 3:
@@ -110,11 +121,11 @@ public class Main {
 
         theftDf.write()
                 .mode(SaveMode.Overwrite)
-                .partitionBy( "Country_of_Origin", "State")
+                .partitionBy( "Country_of_Origin")
                 .saveAsTable("partitioned_thefts");
     }
 
- // Step 4:
+    // Step 4:
     public void mergeUpdatedRecords() {
         try {
             // Load the original theft dataset from Hive
@@ -126,7 +137,11 @@ public class Main {
             Dataset<Row> updated = spark.read()
                     .option("header", "true")
                     .csv("src/main/resources/Updated - Sheet1.csv");   
-                          
+                              
+            Dataset<Row> carsDf = spark.sql("SELECT * FROM cars_table");
+            // cache the car table because i will use it in join 
+            carsDf.cache(); 
+          
             // Data cleaning steps
             updated = updated
                     .filter(row -> !row.anyNull()) // Remove rows with null values
@@ -138,7 +153,11 @@ public class Main {
                       .map(column -> column.replaceAll("[^a-zA-Z0-9_]", "_")) 
                       .toArray(String[]::new)
             );
-                  
+            // join with car to add country of origin 
+            updatedDf = updatedDf.join(carsDf, updatedDf.col("Make_Model").contains(carsDf.col("Car_Brand")), "inner") 
+                    .select(updatedDf.col("*"), carsDf.col("Country_of_Origin"));
+            
+                    
             // Perform a full outer join on all columns from both datasets
             Dataset<Row> mergedDf = originalDf.join(updatedDf,
                     originalDf.col("Make_Model").equalTo(updatedDf.col("Make_Model"))
@@ -152,16 +171,28 @@ public class Main {
                     functions.coalesce(updatedDf.col("Model_Year"), originalDf.col("Model_Year")).as("Model_Year"),
                     functions.coalesce(updatedDf.col("Thefts"), originalDf.col("Thefts")).as("Thefts"),
                     functions.coalesce(updatedDf.col("State"), originalDf.col("State")).as("State"),
-                    originalDf.col("Country_of_Origin")
+                    functions.coalesce(updatedDf.col("Country_of_Origin"), originalDf.col("Country_of_Origin"))
             );
 
-            // Write the merged dataset to a temporary location
+            // Clean the Thefts column in-place
+            finalDf = finalDf.withColumn("Thefts",
+                    functions.when(finalDf.col("Thefts").isNotNull(),
+                        functions.trim(functions.regexp_replace(finalDf.col("Thefts"), ",", ""))
+                    ).otherwise(null)
+            );
+
+            // Write the cleaned and merged dataset to a temporary location
             String tempTableName = "temp_partitioned_thefts";
             finalDf.write()
                     .mode(SaveMode.Overwrite)
-                    .partitionBy("Country_of_Origin", "State")
+                    .partitionBy("Country_of_Origin")
                     .saveAsTable(tempTableName);
 
+            finalDf.repartition(1).write()
+                    .option("header", "true")
+                    .mode(SaveMode.Overwrite)
+                    .csv("output/final");
+            
             // Drop the original table
             spark.sql("DROP TABLE IF EXISTS partitioned_thefts");
 
@@ -172,33 +203,65 @@ public class Main {
         } catch (Exception e) {
             System.err.println("Error during merging and saving: " + e.getMessage());
         }
-    }
+  }
+
     // Step 5:
     public void extractTopCountries() {
-     // Clean and aggregate data for the USA
-        Dataset<Row> topCountriesDf = spark.sql(
-                "SELECT State, SUM(Thefts) AS Total_Thefts " +
-                "FROM partitioned_thefts " +
-                "WHERE Country_of_Origin = 'America' " + 
-                "GROUP BY State " +
-                "ORDER BY Total_Thefts DESC " +
-                "LIMIT 5"
-        );
-        
-        // Data cleaning steps
-        topCountriesDf = topCountriesDf
-                .filter(row -> !row.anyNull()) // Remove rows with null values
-                .dropDuplicates(); // Remove duplicate rows
 
+        Dataset<Row> topCountriesDf = spark.sql(
+            "SELECT Country_of_Origin, SUM(Thefts) AS Total_Thefts " +
+            "FROM partitioned_thefts " +
+            "GROUP BY Country_of_Origin " +
+            "ORDER BY Total_Thefts DESC " +
+            "LIMIT 5"
+        );
+
+        // Check for invalid or non-numeric data in Thefts column
+        Dataset<Row> invalidData = spark.sql(
+            "SELECT * FROM partitioned_thefts WHERE CAST(Thefts AS INT) IS NULL"
+        );
+
+        invalidData.repartition(1).write()
+        .option("header", "true")
+        .mode(SaveMode.Overwrite)
+        .csv("output/invalid_data");
+
+        // Display the aggregated result
         topCountriesDf.show();
 
         // Save the cleaned result to a CSV file
-        topCountriesDf.write()
-                .option("header", "true")
-                .mode(SaveMode.Overwrite)
-                .csv("output/top_5_countries");
+        topCountriesDf.repartition(1).write()
+            .option("header", "true")
+            .mode(SaveMode.Overwrite)
+            .csv("output/top_countries");
 
-        System.out.println("Top 5 countries extracted and saved successfully.");
+        System.out.println("Top countries extracted and saved successfully.");
+        
+        
+//        
+//        // Load the partitioned_thefts DataFrame (if not already loaded)
+//        Dataset<Row> partitionedTheftsDf = spark.table("partitioned_thefts");
+//
+//        // Clean the data: remove commas and trim spaces, and filter valid numeric rows
+//        Dataset<Row> cleanedDf = partitionedTheftsDf
+//            .filter(partitionedTheftsDf.col("Thefts").isNotNull())  // Exclude NULL values
+//            .withColumn("Cleaned_Thefts", functions.trim(functions.regexp_replace(partitionedTheftsDf.col("Thefts"), ",", ""))) // Remove commas
+//            .filter(functions.col("Cleaned_Thefts").rlike("^[0-9]+$")); // Ensure valid numeric strings
+//
+//        // Aggregate the cleaned data
+//        Dataset<Row> topCountriesDf = cleanedDf
+//            .select(functions.sum(functions.col("Cleaned_Thefts").cast("int")).alias("Total_Thefts"));
+//
+//        // Display the aggregated result
+//        topCountriesDf.show();
+//
+//        // Save the cleaned result to a CSV file
+//        topCountriesDf.repartition(1).write()
+//            .option("header", "true")
+//            .mode(SaveMode.Overwrite)
+//            .csv("output/top_countries");
+//
+//        System.out.println("Top countries extracted and saved successfully.");
     }
 
 
